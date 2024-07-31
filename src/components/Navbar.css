@@ -1,0 +1,48 @@
+/* Styling for the navigation bar */
+.navbar {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Styling for the list inside the navigation bar */
+  .navbar-list {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styling for each item in the navigation bar */
+  .navbar-item {
+    margin: 0;
+  }
+  
+  .navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  /* Hover effect for the links */
+  .navbar-item a:hover {
+    background-color: #575757;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .navbar-list {
+      flex-direction: column;
+      gap: 10px;
+    }
+  }
+  
